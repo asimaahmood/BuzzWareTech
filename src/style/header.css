@@ -1,0 +1,50 @@
+.header-container {
+    background-image: url('/Public/Images/background.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    background-color: white;
+}
+.Joberiss {
+    font-size: 41px;
+    color: var(--base-color);
+    font-family: Inter-Bold;
+}
+.navbar-default li a {
+    font-size: 1rem;
+    font-family: Poppins-SemiBold, calibri;
+    color: black;
+}
+.nav-item {
+    padding-right: 1.5rem;
+}
+.register-button{
+    background-color: var( --base-color) !important;
+    border-radius: 20px !important;
+    border: 1px solid var( --base-color);
+    padding: 20px;
+    color: white;
+    font-family: Poppins-SemiBold, calibri;
+    font-size: 18px;
+    width: 134px;
+    height: 68px;
+}
+.register-button:hover{
+    background-color: white !important;
+    color: var(--base-color) !important;
+    border: 2px solid var(--base-color) !important;
+
+}
+.register-button:focus{
+    background-color: white !important;
+    color: var(--base-color) !important;
+    border: 2px solid var(--base-color) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navbar-nav  a:hover {
+    color: var( --base-color) !important;
+}
+.navbar-nav   a:focus {
+    color: var(--price-color)!important;
+}

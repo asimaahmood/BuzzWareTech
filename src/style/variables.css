@@ -1,0 +1,11 @@
+:root {
+    --font: 'Inter-Regular', calibri, sans-serif;
+    --base-color: #318ce7;
+    --logo-color: #6da7ec;
+    --secondary-color: #dee9f8;
+    --home-color: #aeb1da;
+    --container-color: #eef3f7;
+    --jobs-color: #83bafe;
+    --price-color: #4c53b6;
+    --copyright-color: #77b5fe;
+}
