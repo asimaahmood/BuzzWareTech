@@ -74,5 +74,40 @@ h1 {
     width: 100%;
 }
 .find-services{
-
+    position: relative;
+    top: -445px;
+    left: 21px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 55vw;
+}
+.Rounded-Rectangle-1{
+    position: relative;
+    top: -167px;
+    left: -82px;
+}
+.fa-magnifying-glass{
+    color: var(--base-color);
+}
+.find-service-button{
+    background-color: var( --base-color) !important;
+    border-radius: 10px !important;
+    border: 1px solid var( --base-color);
+    padding: 20px 20px;
+    color: white;
+    font-family: Inter-SemiBold;
+    font-size: 16px;
+}
+input{
+    border: none !important;
+}
+input.form-control::placeholder {
+    font-size: 15px;
+    color: black !important;
+    font-weight: 600 !important;
+}
+.form-control:focus {
+border-color: transparent; /* Set the border color to transparent */
+box-shadow: none; /* Remove the box shadow */
 }
