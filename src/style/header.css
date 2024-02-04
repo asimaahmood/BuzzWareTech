@@ -31,8 +31,6 @@
     color: white;
     font-family: Poppins-SemiBold, calibri;
     font-size: 18px;
-    width: 134px;
-    height: 68px;
 }
 .register-button:hover{
     background-color: white !important;
@@ -100,7 +98,7 @@ h1 {
     border-radius: 10px !important;
     border: 1px solid var( --base-color);
     padding: 20px 20px;
-    color: white;
+    color: white !important;
     font-family: Inter-SemiBold;
     font-size: 16px;
 }
@@ -115,4 +113,125 @@ input.form-control::placeholder {
 .form-control:focus {
     border-color: transparent;
     box-shadow: none;
+}
+@media only screen and (min-width: 1023px) and (max-width: 1200px) {
+    .navbar-default li a {
+        font-size: 0.8rem;
+    }
+    .nav-item {
+        padding-right: 1rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    h1 {
+        font-size: 2.75rem;
+    }
+    .navbar-default li a {
+        font-size: 0.8rem;
+    }
+    .nav-item {
+        padding-right: 0.5rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .find-service-button{
+        border-radius: 8px !important;
+        padding: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    .find-services{
+        position: absolute;
+        top: -104px;
+        left: 21px;
+        width: 60vw;
+    }
+}
+@media only screen and (min-width: 645px) and (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .find-service-button{
+        border-radius: 8px !important;
+        padding: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    .find-services{
+        width: 60vw;
+        position: static;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 449px) and (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .find-service-button{
+        border-radius: 8px !important;
+        padding: 5px;
+        color: white;
+        font-size: 10px;
+    }
+    .find-services{
+        width: 70vw;
+        position: static;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+    input.form-control::placeholder {
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (min-width: 358px) and (max-width: 448px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .find-service-button{
+        border-radius: 8px !important;
+        padding: 5px;
+        color: white;
+        font-size: 0.5rem;
+    }
+    .find-services{
+        width: 70vw;
+        position: static;
+        margin-top: 10px;
+        padding: 0.5rem !important;
+        border-radius: 8px;
+    }
+    input.form-control::placeholder {
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (min-width: 288px) and (max-width: 357px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .find-service-button{
+        border-radius: 2px !important;
+        padding: 3px;
+        color: white;
+        font-size: 0.4rem;
+    }
+    .find-services{
+        width: 75vw;
+        position: static;
+        margin-top: 10px;
+        padding: 0.5rem !important;
+        border-radius: 8px;
+    }
+    input.form-control::placeholder {
+        font-size: 0.5rem;
+    }
+    .Joberiss {
+        font-size: 25px;
+    }
+
 }
