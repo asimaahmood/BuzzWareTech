@@ -212,7 +212,7 @@ input.form-control::placeholder {
 }
 @media only screen and (min-width: 288px) and (max-width: 357px) {
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .find-service-button{
         border-radius: 2px !important;
@@ -221,7 +221,7 @@ input.form-control::placeholder {
         font-size: 0.4rem;
     }
     .find-services{
-        width: 75vw;
+        width: 100%;
         position: static;
         margin-top: 10px;
         padding: 0.5rem !important;

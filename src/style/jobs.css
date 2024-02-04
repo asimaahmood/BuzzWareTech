@@ -14,14 +14,15 @@
     align-items: center;
     object-fit: cover;
     max-width: 100vw;
+    position: relative;
 }
 .job-price{
     border-radius: 8px;
     background-color: var(--price-color);
     padding: 5px 10px;
     color: white;
-    top: 54%;
-    right: 16%;
+    bottom: -22px;
+    right: 14px;
     position: absolute;
 }
 .job-price h6{
@@ -52,3 +53,7 @@
     line-height: 0.5;
     font-size: 0.8rem;
 }
+/* @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+   
+
+} */

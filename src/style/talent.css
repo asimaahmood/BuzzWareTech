@@ -19,9 +19,33 @@
     left: -9px;
 }   
 .talent-home-office{
+    position: relative;
+}
+.talent-home-office:before{
+    width: 232px;
+    content: " ";
+    background-image: url(/Public/Images/Rounded-Rectangle-6.png);
     position: absolute;
-    top: 23px;
-    left: 36px;
+    left: -38px;
+    top: -30px;
+    height: 274px;
+    z-index: -1;
+    background-size: 70%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.talent-home-office:after{
+    background-image: url(/Public/Images/Rounded-Rectangle-4.png);
+    width: 232px;
+    content: " ";
+    position: absolute;
+    left: -38px;
+    bottom: -120px;
+    height: 274px;
+    z-index: -1;
+    background-size: 70%;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 .talent-paragraph{
     padding: 6rem;
