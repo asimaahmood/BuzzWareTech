@@ -1,3 +1,29 @@
 .work-section{
-    
+    background-color: var(--container-color);
+    position: relative;
+    padding: 3rem 1rem;
+}
+.arrow-up{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 34%;
+    /* top: 248px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 11%;
+    /* left: 164px; */
+}
+.arrow-down{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 61%;
+    right: 12%;
 }

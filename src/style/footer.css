@@ -1,0 +1,15 @@
+footer {
+   padding: 3rem;
+   background-color: var(--base-color);
+   color: white;
+}
+footer h6{
+    font-size: 54px;
+    font-family: Inter-Bold;
+}
+.copyright{
+    background-color: var(--copyright-color);
+    display: flex;
+    justify-content: center;
+    color: white;
+}

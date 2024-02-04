@@ -58,3 +58,9 @@
     font-weight: 100;
     font-style: normal;
 }
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url('/Public/fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
