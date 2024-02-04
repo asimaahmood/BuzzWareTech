@@ -1,0 +1,39 @@
+.talent-section{
+    padding: 5rem 5rem 18rem 5rem;
+    margin-bottom: 5rem;
+}
+.talent-images{
+    position: relative;
+}
+.rounded-rectangle-bodered{
+    display: flex;
+    position: absolute;
+    left: -17px;
+    top: -17px;
+}
+
+.rounded-rectangle-solid{
+    display: flex;
+    position: absolute;
+    top: 493px;
+    left: -9px;
+}   
+.talent-home-office{
+    position: absolute;
+    top: 23px;
+    left: 36px;
+}
+.talent-paragraph{
+    padding: 6rem;
+    position: relative;
+}
+.head-of-idea{
+    position: absolute;
+    top: 500px;
+    left: -101px;
+}
+.image-place-holder{
+    position: absolute;
+    top: 500px;
+    left: 167px;
+}

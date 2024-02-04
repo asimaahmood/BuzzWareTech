@@ -8,7 +8,19 @@
 @import "talent.css";
 @import "work.css";
 
-/* .test-class{
-    font-size: 8rem;
-} */
+h2{
+    font-family: Inter-SemiBold;
+    font-size: 36px;
+}
+h3{
+    font-family: Inter-SemiBold;
+    font-size: 22px;
+}
+h4{
+    font-family: Inter-Regular;
+    font-size: 20px;
+}
+p{
+    font-family: Inter-Regular;
+}
 

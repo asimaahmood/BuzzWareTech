@@ -1,0 +1,23 @@
+.category-section{
+    background-color: var(--container-color);
+    padding: 8rem;
+}
+.category-card-body{
+    background-color: white;
+    border-radius: 20px;
+    padding: 3rem;
+}
+.category-icon-container{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: var(--container-color);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.jobs-text-color{
+    color: var(--jobs-color);
+}
