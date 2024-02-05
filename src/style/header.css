@@ -114,7 +114,7 @@ input.form-control::placeholder {
     border-color: transparent;
     box-shadow: none;
 }
-@media only screen and (min-width: 1023px) and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .navbar-default li a {
         font-size: 0.8rem;
     }
@@ -124,8 +124,12 @@ input.form-control::placeholder {
     h1 {
         font-size: 2rem;
     }
+    .Joberiss {
+        font-size: 30px;
+        margin-left: 3rem;
+    }
 }
-@media only screen and (min-width: 992px) and (max-width: 1024px) {
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
     h1 {
         font-size: 2.75rem;
     }
@@ -134,6 +138,10 @@ input.form-control::placeholder {
     }
     .nav-item {
         padding-right: 0.5rem;
+    }
+    .Joberiss {
+        font-size: 30px;
+        margin-left: 3rem;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -180,13 +188,21 @@ input.form-control::placeholder {
         font-size: 10px;
     }
     .find-services{
-        width: 70vw;
+        width: 100%;
         position: static;
         margin-top: 10px;
         border-radius: 8px;
     }
     input.form-control::placeholder {
         font-size: 0.7rem;
+    }
+    .Rounded-Rectangle-1{
+        display: none !important;
+    }
+    .register-button{
+        border-radius: 10px !important;
+        padding: 10px;
+        font-size: 16px;
     }
 }
 @media only screen and (min-width: 358px) and (max-width: 448px) {
@@ -200,7 +216,7 @@ input.form-control::placeholder {
         font-size: 0.5rem;
     }
     .find-services{
-        width: 70vw;
+        width: 100%;
         position: static;
         margin-top: 10px;
         padding: 0.5rem !important;
@@ -209,8 +225,16 @@ input.form-control::placeholder {
     input.form-control::placeholder {
         font-size: 0.6rem;
     }
+    .Rounded-Rectangle-1{
+        display: none !important;
+    }
+    .register-button{
+        border-radius: 10px !important;
+        padding: 8px;
+        font-size: 12px;
+    }
 }
-@media only screen and (min-width: 288px) and (max-width: 357px) {
+@media only screen and (min-width: 200px) and (max-width: 357px) {
     h1 {
         font-size: 1.5rem;
     }
@@ -233,5 +257,12 @@ input.form-control::placeholder {
     .Joberiss {
         font-size: 25px;
     }
-
+    .Rounded-Rectangle-1{
+        display: none !important;
+    }
+    .register-button{
+        border-radius: 10px !important;
+        padding: 8px;
+        font-size: 12px;
+    }
 }
